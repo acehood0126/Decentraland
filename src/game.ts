@@ -72,6 +72,7 @@ box.getComponent(Transform).position.set(3, 1, 3)
 
 // Create and apply a `BoxShape` component to give the entity a visible form
 box.addComponent(new BoxShape())
+box.setParent(avocado)
 
 // Add the entity to the engine
 engine.addEntity(box)
